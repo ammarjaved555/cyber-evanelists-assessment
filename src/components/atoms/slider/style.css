@@ -90,3 +90,24 @@ and (max-device-width : 600px) {
   }
   
 }
+  @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .paraSlider{
+    margin-left: -100px;
+    width: 500px;
+   
+  }.headingSlider {
+    width: 500px;
+    font-size: x-large;
+    }
+  .paraSlider > div {
+    
+    width: 400px;
+  }
+  .imageSlider  {
+    margin-left: -100px;
+    width: 367px;
+  }
+  
+}
